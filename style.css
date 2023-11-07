@@ -22,8 +22,25 @@ body {
 .cellprop-actions-cont {
     height: 3rem;
     background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
 }
-
+.cellprop-actions-cont > * {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.cellprop-actions-cont > select {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.font-family-prop {
+    padding: 0.2rem;
+}
+.font-size-prop {
+    padding: 0.2rem;
+}
 .formula-actions-cont {
     height:  3rem;
     background-color: lightblue;
