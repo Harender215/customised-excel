@@ -17,6 +17,7 @@ body {
 .page-action {
     margin: 0.5rem;
     color: #f1f2f6;
+    cursor: pointer;
 }
 
 .cellprop-actions-cont {
@@ -29,6 +30,7 @@ body {
 .cellprop-actions-cont > * {
     display: inline-block;
     margin-right: 1rem;
+    cursor: pointer;
 }
 .cellprop-actions-cont > select {
     border: none;
@@ -49,9 +51,35 @@ body {
 .sheet-actions-cont {
     height:  3rem;
     background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    gap: 1;
+    background-color: #ecf0f1;
 }
-
+.sheet-actions-cont > *{
+    display: inline-block;
+    
+}
+.sheet-add-icon {
+   width: 2vw;
+}
+.sheet-folder-cont {
+    height: 80%;
+    width: calc(100vw - 2vw - 0.5rem);
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+.sheet-folder {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    text-decoration-thickness: 3px ;
+}
 .grid-cont {
     height: calc(100vh - 3rem - 3rem - 3rem - 3rem);
     /* background-color: brown; */
+    
 }
